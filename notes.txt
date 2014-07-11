@@ -1,0 +1,18 @@
+Database Notes
+Budget
+
+Categories
+- Id
+- ParentId
+- Description
+
+Transactions
+- Id
+- Date
+- Description
+- Amount
+
+Transactions
+- view All - select * from transactions order by date desc
+- week - select * from transactions where date between order by date desc
+- month - select * from transactions were date between order by date desc
